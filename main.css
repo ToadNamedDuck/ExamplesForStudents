@@ -20,3 +20,25 @@ h3{
 #prologue{
     text-align: center;
 }
+#formGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 1px black;
+}
+button{
+    width: 20%;
+}
+select{
+    width: 50%;
+}
+#dropdownArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+label{
+    display: block;
+}
