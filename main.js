@@ -34,7 +34,7 @@ function inputChangeHandler(e){
 function buttonOnClick(e){
     e.preventDefault();
     let selectedIndex = parseInt(document.getElementById("indexSelector").value)
-    document.getElementById("output").innerHTML = `<p> ${array2[selectedIndex]} makes $${array1[selectedIndex]} a year.</p>
+    document.getElementById("output").innerHTML = `<p id="generatedSentence"> ${array2[selectedIndex]} makes $${array1[selectedIndex]} a year.</p>
     <p><b>Both</b> elements are the same position in their respected arrays, and using the same variable, this sentence was generate with data in the <b>SAME POSITION</b>.</p>
     <p>We can accomplish this by storing the desired index into a <b>variable</b>. Each array is a variable as well, so we can simply get the data in the same position by calling each one, like "<b>nameArray[variable]</b>" and "<b>salaryArray[variable]</b> and directly using the returned values in our code.`
 

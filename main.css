@@ -43,5 +43,8 @@ label{
     display: block;
 }
 #output{
+    text-indent: 20px;
+}
+#generatedSentence{
     text-align: center;
 }
